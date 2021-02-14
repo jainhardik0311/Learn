@@ -1,0 +1,14 @@
+def tax(int):
+    global income
+    amount = 0
+    if income <= 10000:
+        amount = 0
+    elif income <= 20000:
+        amount = ((income-10000)*(10/100))
+    else:
+        amount = 0
+        amount = 10000 * (10 / 100)
+        amount += ((income-20000)*(20/100))
+    print("Taxable amount is: ",amount )
+income = int(input("Please enter your salary: "))
+tax(income)
