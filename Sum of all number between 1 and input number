@@ -1,0 +1,7 @@
+a = int(input("Enter a number: "))
+count = 1
+sum = 0
+while count <= a:
+    sum = sum + count
+    count+=1
+print("Sum is",sum)
