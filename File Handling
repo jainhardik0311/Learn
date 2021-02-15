@@ -1,0 +1,12 @@
+f = open("Demo.txt","r")
+# x to create a file
+# r to read data in a file
+# w to write in a file
+# a to append
+# rb for read binary images
+# f.write("Hello World")
+
+f1 = open("Demo1.txt","w")
+
+for data in f:
+   f1.write(data)
