@@ -1,0 +1,4 @@
+def calculator(a,b):
+    print(a + b)
+    print(a - b)
+calculator(30,20)
