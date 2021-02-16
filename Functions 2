@@ -1,0 +1,3 @@
+def showemployee(name,amount=9000):
+    print("Emplyee" ,name ,"& Salary is" ,amount)
+showemployee("Ram")
