@@ -1,0 +1,8 @@
+print("Fibonacci Series: ")
+first = 0
+second = 1
+for i in range(0,10):
+    third = first + second
+    print(first)
+    first = second
+    second = third
