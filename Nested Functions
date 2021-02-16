@@ -1,0 +1,8 @@
+def outerfunction(a,b):
+    def innerfunction(a,b):
+        return a + b
+    add = innerfunction(a,b)
+    return add+5
+
+result = outerfunction(5,10)
+print(result)
