@@ -1,0 +1,11 @@
+s1 = "America"
+s2 = "Japan"
+
+middles1 = int(len(s1)/2)
+middles2 = int(len(s2)/2)
+
+last1 = len(s1)-1
+last2 = len(s2)-1
+
+newString = s1[0] + s2[0] + s1[middles1] + s2[middles2] + s1[last1] + s2[last2]
+print(newString)
