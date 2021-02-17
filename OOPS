@@ -1,0 +1,8 @@
+class computer:
+    def config(self):
+        print("First OOPS program")
+
+comp1 = computer()
+# Methods to call class
+computer.config(comp1)
+comp1.config()
