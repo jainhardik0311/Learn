@@ -1,0 +1,16 @@
+str1 = "P@#yn26at^&i5ve"
+letters = 0
+digits = 0
+symbol = 0
+
+for char in str1:
+    if char.isalpha():
+        letters += 1
+
+    elif char.isnumeric():
+        digits += 1
+
+    else:
+        symbol += 1
+
+print(letters, digits, symbol)
