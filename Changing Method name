@@ -1,0 +1,7 @@
+def displayStudent(name,age):
+    print(name,age)
+
+displayStudent("Hardik",24)
+showStudent = displayStudent
+
+showStudent("Fenil",28)
