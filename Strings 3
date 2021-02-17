@@ -1,0 +1,11 @@
+s1 = "AmERica"
+lower = []
+upper = []
+for char in s1:
+    if char.islower():
+        lower.append(char)
+    else:
+        upper.append(char)
+
+newString = lower + upper
+print(newString)
