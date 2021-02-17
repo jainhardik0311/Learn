@@ -1,0 +1,17 @@
+File1
+
+def MyCode2():
+    if __name__ == ("__main__"):
+        print("Hello", __name__)
+
+MyCode2()
+
+
+File2
+
+import MyCode2
+
+def MyCode3():
+    print("This is primary file")
+
+MyCode3()
