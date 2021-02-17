@@ -1,0 +1,6 @@
+s1 = "Ault"
+s2 = "Kelly"
+
+middles1 = int(len(s1)/2)
+newString = s1[:middles1:] + s2 + s1[middles1:]
+print(newString)
