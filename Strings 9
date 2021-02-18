@@ -1,0 +1,5 @@
+str1 = "PYnative"
+print("Original String is",str1)
+
+str2 = str1[::-1]
+print("Reverse string is",str2)
