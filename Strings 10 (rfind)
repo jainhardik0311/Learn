@@ -1,0 +1,9 @@
+str1 = "Emma is a data scientist who knows Python. Emma works at google."
+print("Original String is:", str1)
+
+index = str1.rfind("Emma")
+print("Last occurrence of Emma starts at", index)
+
+# value	(Required) - The value to search for
+# start	(Optional) - Where to start the search. Default is 0
+# end	(Optional) - Where to end the search. Default is to the end of the string
