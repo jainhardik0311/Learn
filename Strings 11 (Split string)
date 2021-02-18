@@ -1,0 +1,5 @@
+str1 = "Emma-is-a-data-scientist"
+
+splitstring = str1.split("-")
+for string in splitstring:
+    print(string)
