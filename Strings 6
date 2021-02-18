@@ -1,0 +1,3 @@
+str1 = "Welcome to USA. usa awesome, isn't it?"
+temp = str1.lower()
+print(temp.count("usa"))
