@@ -1,0 +1,14 @@
+OriginalList = [11, 45, 8, 23, 14, 12, 78, 45, 89]
+print("Original List is",OriginalList)
+
+chunk1 = OriginalList[0:3]
+print("Chunk 1 is",chunk1)
+print("Reverse is",chunk1[::-1])
+
+chunk2 = OriginalList[3:6]
+print("Chunk 2 is",chunk2)
+print("Reverse is",chunk2[::-1])
+
+chunk3 = OriginalList[6:]
+print("Chunk 3 is",chunk3)
+print("Reverse is",chunk3[::-1])
