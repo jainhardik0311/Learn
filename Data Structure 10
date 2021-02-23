@@ -1,0 +1,12 @@
+sampleList = [87, 45, 41, 65, 94, 41, 99, 94]
+newList = []
+for number in sampleList:
+    if number not in newList:
+        newList.append(number)
+print("Unique List ",newList)
+
+tuple = tuple(newList)
+print("Tuple -",tuple)
+
+print("Minimum ",min(newList))
+print("Minimum ",max(newList))
