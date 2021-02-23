@@ -1,0 +1,10 @@
+firstset = {65, 42, 78, 83, 23, 57, 29}
+secondset = {67, 73, 43, 48, 83, 57, 29}
+
+intersection = set.intersection(firstset,secondset)
+print("Common elements are ",intersection)
+
+for number in intersection:
+    if number in firstset:
+        firstset.remove(number)
+print("After removing common elements ",firstset)
