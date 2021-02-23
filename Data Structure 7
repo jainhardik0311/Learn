@@ -1,0 +1,15 @@
+firstSet = {27, 43, 34}
+secondSet = {34, 93, 22, 27, 43, 53, 48}
+
+print("First set is Subset of Second -",firstSet.issubset(secondSet))
+print("Second set is Subset of First -",secondSet.issubset(firstSet))
+
+print("First set is Superset of Second -",firstSet.issuperset(secondSet))
+print("Second set is Superset of First -",secondSet.issuperset(firstSet))
+
+if firstSet.issubset(secondSet):
+    firstSet.clear()
+elif secondSet.issubset(firstSet):
+    secondSet.clear()
+print(firstSet)
+print(secondSet)
