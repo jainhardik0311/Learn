@@ -1,0 +1,8 @@
+class Vehicle:
+    def __init__(self,max_speed,mileage):
+        self.max_speed = max_speed
+        self.mileage = mileage
+
+bmw = Vehicle(240,20)
+
+print(bmw.mileage,bmw.max_speed)
