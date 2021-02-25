@@ -1,0 +1,14 @@
+class Computer:
+    def __init__(self,cpu,ram):
+        print("Auto run")
+        self.cpu = cpu
+        self.ram = ram
+
+    def config(self):
+        print("Config is ",self.cpu,self.ram)
+
+com1 = Computer("I3","6GB")
+com2 = Computer("I7","8GB")
+
+com1.config()
+com2.config()
