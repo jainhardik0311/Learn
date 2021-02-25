@@ -1,0 +1,15 @@
+class car:
+    wheels = 4
+    def __init__(self):
+        self.model = "BMW"
+        self.color = "White"
+
+c1 = car()
+c2 = car()
+
+c1.model = "Audi"
+c2.color = "Black"
+car.wheels = 5
+
+print(c1.model,c1.color,c1.wheels)
+print(c2.model,c2.color,c2.wheels)
