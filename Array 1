@@ -1,0 +1,5 @@
+from array import *
+oldarray = array('i',[1,3,5,7,9])
+newarray = array(oldarray.typecode, (i*i for i in oldarray))
+for i in newarray:
+    print(i)
