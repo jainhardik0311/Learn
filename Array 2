@@ -1,0 +1,19 @@
+from array import *
+new_array = array('i',[])
+
+length = int(input("Enter the size of the array: "))
+
+for i in range(length):
+    a = int(input("Enter element: "))
+    new_array.append(a)
+print(new_array)
+
+n = int(input("Enter the number:"))
+#print(new_array.index(n))
+
+for i in range(len(new_array)):
+    if n == new_array[i]:
+        print(i)
+    else:
+        pass
+#print(new_array.index(n))
